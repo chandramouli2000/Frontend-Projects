@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+/*Nav Bar */
+.navbar-brand{
+    width: 10%;
+}
+.nav-link{
+    color: #cb1332 !important;
+    font-size: 19px;
+    font-weight: 600;
+}
+.navbar{
+    background-color: #daf0da;
+}
+/* home */
+.bgimg{
+    background-image: url('https://img.freepik.com/free-photo/supermarket-banner-with-food_23-2149500984.jpg?t=st=1729685270~exp=1729688870~hmac=d85e17a7dd25caa3d169d680792b83c1d6fc114f277890fc5c8f8e19ca8baab4&w=2000');
+    width: 98vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+.hhead{
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 2px 2px black;
+    margin-top: 2%;
+}
+.hbtn{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2%;
+}
+/* About us*/
+.heading{
+    color:#cb1332;
+    font-size: 45px;
+}
+.ahead{
+    color: green;
+}
+.apara{
+    color: #c31d39;
+    font-size: 20px;
+    line-height: 35px;
+}
+.carousel-item img{
+    width: 60%;
+    aspect-ratio: 4/2;
+}
+/* Products */
+.card-img-top{
+    width: 100%;
+    aspect-ratio: 3/3;
+}
+.phead{
+    color: #cb1332;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ppara{
+    color: green;
+    font-weight: bold;
+}
+.pro .hello .card{
+    border: 5px solid transparent;
+}
+/* Payment */
+.input-group-text{
+    background-color: #c31d39;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+}
+/* contact us */
+.form-label{
+    color: green;
+    font-weight: bold;
+}
+/* footer */
+.footer{
+    background-color: #c31d39;
+}
+.hfoot{
+    color: white;
+    text-decoration: underline 2px solid gold;
+}
+.foott{
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
+.ficons{
+    color: skyblue;
+    font-size: 30px;
+    margin: 1%;
+}
+.ficons:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+/* Copy Right */
+.copy{
+    background-color: black;
+    color: white;
+    padding: 2%;
+    text-align: center;
+}
+.copy h6{
+    font-size: 22px;
+}
