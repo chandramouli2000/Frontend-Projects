@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOMMERCE || WEB STORE</title>
+    <!-- Bootstrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- FONT AWESOME KIT-->
+    <script src="https://kit.fontawesome.com/2bb3045459.js" crossorigin="anonymous"></script>
+    <!-- FAVICON -->
+    <link rel="icon"
+        href="https://www.pngitem.com/pimgs/m/30-301947_eco-friendly-logo-png-free-eco-friendly-logo.png" />
+    <!-- external css -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img
+                    src="https://www.pngitem.com/pimgs/m/30-301947_eco-friendly-logo-png-free-eco-friendly-logo.png"
+                    width="50%" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./product.html">Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Payment
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#payment">Online Payment</a></li>
+                            <li><a class="dropdown-item" href="#payment">Offline Payment</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#payment">Others</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--Home -->
+    <section class="bgimg" style="margin-top: 6%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="hhead">Organic Store</h1>
+                    <button class="btn btn-success hbtn">Shop Now <i
+                        class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+     <section id="about" class="about">
+        <h1 class="heading text-center mt-5 mb-4">ABOUT US</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6"> 
+                    <h2 class="ahead">Organic Benefits.....</h2>
+                    <p class="apara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Commodi impedit voluptatum nemo ex porro perferendis provident. 
+                        Dolores ipsum neque voluptatibus eius quo consequuntur consequatur, sint aliquam nostrum ab sed facilis.</p> 
+                        <button class="btn btn-success">Products <i class="fa-solid fa-store"></i></button>   
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 mt-1"> 
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://img.freepik.com/free-photo/colorful-fruit-basket-showcases-healthy-fresh-variety-generated-by-ai_188544-13415.jpg?t=st=1729769873~exp=1729773473~hmac=05cb6ec925187edd3c265d2ceee77e060e950bbb2699be53dd8564ea6813e4a8&w=1060" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://img.freepik.com/premium-photo/milk-honeycomb_1234738-342262.jpg?w=1060" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://img.freepik.com/premium-photo/organic-spices-natural-fresh-flavorful-seasonings_969707-18301.jpg?w=996" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>    
+                </div>
+            </div>
+        </div>
+
+     </section>
+     <!-- Payment -->
+     <section id="payment">
+        <div class="container">
+            <h1 class="heading text-center mt-5
+            mb-4">PAYMENT</h1>
+            <div class="row">
+                <div class="col-12 col-md-7 col-lg-7 order-2 order-sm-2 order-md-1 order-lg-1">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Card Holder Name</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Account Number</span>
+                        <input type="Number" class="form-control" placeholder="Number" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Expiry Date</span>
+                        <input type="date" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">CVV</span>
+                        <input type="number" class="form-control" placeholder="CVV" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                      <button class="btn btn-success">Payment <i class="fa-brands fa-cc-mastercard"></i></button>
+                </div>
+                <div class="col-12 col-md-5 col-lg-5 order-1 order-sm-1 order-md-2 order-lg-2">
+                    <img src="https://img.freepik.com/free-photo/robot-with-percentage-symbol_1048-3582.jpg?t=st=1729857335~exp=1729860935~hmac=371e875c8864bb1ca3f7cfe9a7ae8623672e04b697c81e75d85bf0b8985c747e&w=826" width="100%"/>
+
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- Contact -->
+      <section id="contact">
+        <div class="container">
+            <h1 class="heading text-center mt-5
+            mb-4">CONTACT US</h1>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3825.4505893948913!2d80.6458572!3d16.5033345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35fb51a430ffad%3A0xe6ed5ede725b304b!2sCodegnan!5e0!3m2!1sen!2sin!4v1729933967170!5m2!1sen!2sin" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 mt-3">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <button class="btn btn-success">Contact Us <i class="fa-solid fa-rocket"></i></button>
+                </div>
+            </div>
+        </div>
+
+      </section>
+      <!-- Footer -->
+       <section class="footer mt-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <img src="https://www.pngitem.com/pimgs/m/30-301947_eco-friendly-logo-png-free-eco-friendly-logo.png" 
+                    width="10%"/>
+                </div>
+                <div class="col-12">
+                    <h1 class="hfoot">Organic Website</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 foott">
+                    <p>TERMS</p>
+                    <p>TERMS</p>
+                    <p>TERMS</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 foott">
+                    <p>POLICIES</p>
+                    <p>POLICIES</p>
+                    <p>POLICIES</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 foott">
+                    <p>CONDITIONS</p>
+                    <p>CONDITIONS</p>
+                    <p>CONDITIONS</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 foott">
+                    <p>RULES</p>
+                    <p>RULES</p>
+                    <p>RULES</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <i class="fa-brands ficons fa-instagram"></i>
+                    <i class="fa-brands ficons fa-linkedin"></i>
+                    <i class="fa-brands ficons fa-youtube"></i>
+                    <i class="fa-brands ficons fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+       </section>
+       <!--Copy Right -->
+       <section class="copy">
+        <h6>CoPyRiGhT To @cOdEgNaN  FrOnTeNd</h6>
+       </section>
+    <!-- BOOTSTRAP JS SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
